@@ -16,3 +16,5 @@ Stack is Java as one of the most popular language for Automation testers and Sel
 ## Report test
 
 Report test can be found under /taget/surefire-reports/index.html
+
+![Report example](/test_report.png)
