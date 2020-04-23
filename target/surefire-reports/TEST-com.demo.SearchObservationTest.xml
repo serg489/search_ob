@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="1" name="com.demo.SearchObservationTest" time="6.124" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="13.0.2+8"/>
+    <property name="sun.boot.library.path" value="/home/evgen/.sdkman/candidates/java/13.0.2-open/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/evgen/Desktop/core"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/evgen/Desktop/core"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="13.0.2+8"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/home/evgen/.sdkman/candidates/maven/current/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="maven.conf" value="/home/evgen/.sdkman/candidates/maven/current/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="57.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="5.5.13-200.fc31.x86_64"/>
+    <property name="library.jansi.path" value="/home/evgen/.sdkman/candidates/maven/current/lib/jansi-native"/>
+    <property name="user.home" value="/home/evgen"/>
+    <property name="user.timezone" value="Asia/Yekaterinburg"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="13"/>
+    <property name="user.name" value="evgen"/>
+    <property name="java.class.path" value="/home/evgen/.sdkman/candidates/maven/current/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="/home/evgen/.sdkman/candidates/java/13.0.2-open"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="13.0.2"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/home/evgen/.sdkman/candidates/maven/current"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+  </properties>
+  <testcase classname="com.demo.SearchObservationTest" name="byObservationId" time="6.124">
+    <failure message="no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.149)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;apollo&apos;, ip: &apos;192.168.1.153&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.5.13-200.fc31.x86_64&apos;, java.version: &apos;13.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /tmp/.com.google.Chrome.phCzAH}, goog:chromeOptions: {debuggerAddress: localhost:34589}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 937437546c604af482e1b5c0b1861601
+*** Element info: {Using=id, value=search-input-mous}" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.149)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;apollo&apos;, ip: &apos;192.168.1.153&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.5.13-200.fc31.x86_64&apos;, java.version: &apos;13.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /tmp/.com.google.Chrome.phCzAH}, goog:chromeOptions: {debuggerAddress: localhost:34589}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 937437546c604af482e1b5c0b1861601
+*** Element info: {Using=id, value=search-input-mous}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.access$001(AjaxElementLocator.java:39)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:165)
+	at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:61)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:95)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at ru.yandex.qatools.htmlelements.loader.decorator.proxyhandlers.WebElementNamedProxyHandler.invoke(WebElementNamedProxyHandler.java:43)
+	at com.sun.proxy.$Proxy8.clear(Unknown Source)
+	at ru.yandex.qatools.htmlelements.element.TypifiedElement.clear(TypifiedElement.java:127)
+	at com.demo.ui.selenium.elements.WebInput.sendKeys(WebInput.java:14)
+	at com.demo.example.ui.page.home.DashBoardPage.searchByID(DashBoardPage.java:29)
+	at com.demo.SearchObservationTest.byObservationId(SearchObservationTest.java:21)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@42f30e0a
+2020-04-23 18:40:28 INFO  Config:25 - Reading property file /home/evgen/Desktop/core/target/classes/.config.properties
+2020-04-23 18:40:29 INFO  WebDriverManager:1073 - Exporting webdriver.chrome.driver as /home/evgen/.m2/repository/webdriver/chromedriver/linux64/81.0.4044.69/chromedriver
+2020-04-23 18:40:33 INFO  WebBaseElement:20 - Selenium initialization done
+2020-04-23 18:40:33 INFO  SeleniumUtils:14 - Selenium going to open [https://almascience.eso.org/asax/]
+2020-04-23 18:40:37 INFO  SearchObservationTest:19 - Step 1: Set filter by observation id
+2020-04-23 18:40:43 INFO  WebBaseElement:57 - Element is visible
+</system-out>
+    <system-err>Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 31362
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Apr 23, 2020 6:40:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1587649234.822][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587649234.923][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587649235.026][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587649235.128][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587649235.230][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587649235.332][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587649235.434][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587649235.535][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587649235.637][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587649235.993][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587649236.096][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587649236.198][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587649236.300][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587649236.401][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587649236.508][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587649236.609][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587649236.711][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587649236.813][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587649236.915][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587649237.018][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587649237.119][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587649243.861][SEVERE]: Unable to receive message from renderer
+</system-err>
+  </testcase>
+</testsuite>

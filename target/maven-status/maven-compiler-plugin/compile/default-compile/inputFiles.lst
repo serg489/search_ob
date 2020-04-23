@@ -1,0 +1,14 @@
+/home/evgen/Desktop/core/src/main/java/com/demo/ui/selenium/util/SeleniumUtils.java
+/home/evgen/Desktop/core/src/main/java/com/demo/ui/base/test/BaseUITest.java
+/home/evgen/Desktop/core/src/main/java/com/demo/ui/selenium/elements/WebInput.java
+/home/evgen/Desktop/core/src/main/java/com/demo/ui/selenium/util/DriverFactory.java
+/home/evgen/Desktop/core/src/main/java/com/demo/ui/selenium/elements/WebBaseElement.java
+/home/evgen/Desktop/core/src/main/java/com/demo/shared/configuration/Config.java
+/home/evgen/Desktop/core/src/main/java/com/demo/shared/exceptions/UIException.java
+/home/evgen/Desktop/core/src/main/java/com/demo/ui/base/page/BasePage.java
+/home/evgen/Desktop/core/src/main/java/com/demo/ui/selenium/elements/WebButton.java
+/home/evgen/Desktop/core/src/main/java/com/demo/example/ui/page/home/ObservationItemPage.java
+/home/evgen/Desktop/core/src/main/java/com/demo/ui/selenium/elements/WebLabel.java
+/home/evgen/Desktop/core/src/main/java/com/demo/example/ui/test/BaseExampleUITest.java
+/home/evgen/Desktop/core/src/main/java/com/demo/shared/exceptions/CommonException.java
+/home/evgen/Desktop/core/src/main/java/com/demo/example/ui/page/home/DashBoardPage.java
